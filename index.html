@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+    <title>CSIR-National Physical Laboratory</title>
+    title {text-align: center;}
+    h1 {text-align: center;}
+    h2 {text-align: center;}
+    h3 {text-align: center;}
+    h5 {text-align: center;}
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+
+    th, td {
+        border: 1px solid rgb(8, 8, 8);
+        padding: 8px;
+        text-align: center;
+    }
+
+    .background-box {
+        background-color: #010101; /* Background color */
+        padding: 20px; /* Padding for the content inside the box */
+        border-radius: 10px; /* Rounded corners for the box */
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.934); /* Box shadow for a subtle effect */
+
+        .container {
+            width: 50%; /* Adjust the width of the container */
+            margin: 0 auto; /* Center the container horizontally */
+        }
+
+        .box {
+            border: 2px solid rgb(0, 0, 0); /* Border around the box */
+            padding: 20px; /* Padding inside the box */
+        }
+
+        p {
+            margin: 0; /* Remove default margin from the paragraph */
+        }
+
+.form-container {
+    position: absolute;
+    width: 400px;
+    margin: 0 auto;
+    border: 1px solid #010101fa;
+    padding: 20px;
+}
+
+.left-logo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100px; /* Adjust the width of the left logo as needed */
+    height: auto; /* Maintain aspect ratio */
+}
+
+
+.right-logo {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100px; /* Adjust the width of the right logo as needed */
+    height: auto; /* Maintain aspect ratio */
+}
+
+/* Adjust form input styles as needed */
+input[type="text"] {
+    width: calc(100% - 110px); /* Subtract the width of both logos from 100% */
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #000000;
+    color: rgb(0, 0, 0);
+    border: none;
+    cursor: pointer;
+}
+
+.container {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .box {
+            width: 45%; /* Adjust width as needed */
+            border: 1px solid #000000e8;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+
+
+
+</style>
+</head>
+<body>
+    <div class="form-container">
+        <img src="https://th.bing.com/th?id=OIP.agGpskq_U9Mx5uM_AE_NogHaHa&w=250&h=250&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2" alt="Left Logo" class="left-logo">
+        <img src="https://th.bing.com/th?id=OIP.s8Z9OVGZsrPSTyI469z2EQAAAA&w=212&h=210&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2" alt="Right Logo" class="right-logo" align="right">
+</div>
+    
+    <h1>CSIR-National Physical Laboratory</h1>
+    <h2>New Delhi- 110012</h2>
+    <h3>Centre for Callibration & Testing(CFCT)</h3><br>
+    <h4>For Customer: Please fill the GST Details</h4>
+
+    
+    <div class="container">
+        <div class="box">
+    <form action="/submit-form" method="post">
+        <div class=".background-box">
+        <label for="gst_availableailable">(i) GST Available:</label>
+        <input type="checkbox" id="gst_yes" name="gst_available" value="yes">
+        <label for="gst_yes">Yes</label>
+        <input type="checkbox" id="gst_no" name="gst_available" value="no">
+        <label for="gst_no">No</label><br>
+        <label for="gst_available">(ii) GST Number:(Please [tick] any one)</label><br>
+        <input type="text" maxlength="1" size="1" pattern="[0-9]" name="digit1" required>&nbsp;
+        <input type="text" maxlength="1" size="1" pattern="[0-9]" name="digit2" required>&nbsp;
+        <input type="text" maxlength="1" size="1" pattern="[0-9]" name="digit3" required>&nbsp;
+        <input type="text" maxlength="1" size="1" pattern="[0-9]" name="digit4" required>&nbsp;
+        <input type="text" maxlength="1" size="1" pattern="[0-9]" name="digit5" required>&nbsp;
+        <input type="text" maxlength="1" size="1" pattern="[0-9]" name="digit6" required>&nbsp;
+        <input type="text" maxlength="1" size="1" pattern="[0-9]" name="digit7" required>&nbsp;
+        <input type="text" maxlength="1" size="1" pattern="[0-9]" name="digit8" required>&nbsp;
+        <input type="text" maxlength="1" size="1" pattern="[0-9]" name="digit9" required>&nbsp;
+        <input type="text" maxlength="1" size="1" pattern="[0-9]" name="digit10" required>&nbsp;
+        <input type="text" maxlength="1" size="1" pattern="[0-9]" name="digit11" required>&nbsp;
+        <input type="text" maxlength="1" size="1" pattern="[0-9]" name="digit12" required>&nbsp;
+        <input type="text" maxlength="1" size="1" pattern="[0-9]" name="digit13" required>&nbsp;
+        <input type="text" maxlength="1" size="1" pattern="[0-9]" name="digit14" required>&nbsp;
+        <input type="text" maxlength="1" size="1" pattern="[0-9]" name="digit15" required>&nbsp;<br><br>
+        </div>
+    </div>
+        </div>
+        
+        <h5> Callibration / Testing / BND Request (CTBR) Form</h5><br>
+        <label for="customer_identity_(custid)_if_known">(1) Customer Identity Number (CustID), if known:</label>
+        <input type="text" maxlength="1" size="1" pattern="[0-9]" name="digit1" required>&nbsp;
+        <input type="text" maxlength="1" size="1" pattern="[0-9]" name="digit2" required>&nbsp;
+        <input type="text" maxlength="1" size="1" pattern="[0-9]" name="digit3" required>&nbsp;
+        <input type="text" maxlength="1" size="1" pattern="[0-9]" name="digit4" required>&nbsp;<br><br>
+
+        <label for="blank1">(2)NAME OF THE ORGANIZATION/FIRM WITH FULL ADDRESS:</label>
+        <input type="text" id="blank1" name="blank1">
+        
+        <label for="blank2">city:</label>
+        <input type="text" id="blank2" name="blank2">
+        
+        <label for="blank3">State:</label>
+        <input type="text" id="blank3" name="blank3">
+
+        <label for="blank4">Country:</label>
+        <input type="text" id="blank4" name="blank4">
+
+        <label for="blank5">PIN:</label>
+        <input type="text" id="blank5" name="blank5">
+
+        <label for="blank6">Contact Person:</label>
+        <input type="text" id="blank6" name="blank6">
+
+        <label for="blank7">STD:</label>
+        <input type="text" id="blank7" name="blank7">
+
+        <label for="blank8">Phone:</label>
+        <input type="text" id="blank8" name="blank8">\
+
+        <label for="blank9">Fax:</label>
+        <input type="text" id="blank9" name="blank9">
+
+        <label for="blank10">Mobile:</label>
+        <input type="text" id="blank10" name="blank10">
+
+        <label for="blank11">Email:</label>
+        <input type="text" id="blank11" name="blank11"><br><br>
+
+        <label for="blank1">(3) Name and address of the organization/firm in favour of which the Calibration Certificate/Test Report to be issued (required if it is different from the above; else write "same as above", NOT APPLICABLE FOR BND):</label>
+        <input type="text" id="blank1" name="blank1">
+
+        <label for="blank2">City:</label>
+        <input type="text" id="blank2" name="blank2">
+
+        <label for="blank3">State:</label>
+        <input type="text" id="blank3" name="blank3">
+
+        <label for="blank4">Country:</label>
+        <input type="text" id="blank4" name="blank4">
+
+        <label for="blank5">PIN:</label>
+        <input type="text" id="blank5" name="blank5"><br><br>
+
+        <label for="calibration_certificate">Calibration Certificate/Test Report to be sent at:</label>
+        <input type="checkbox" id="address_1" name="calibration_certificate" value="Address No.1">
+        <label for="address_1">Address No.1</label>
+        <input type="checkbox" id="address_2" name="calibration_certificate" value="Address No. 2">
+        <label for="address_2">Address No.2</label><br><br>
+
+        <label for="calibration_certificate">Would you like to have Certificate/Report in:</label>
+        <input type="checkbox" id="certificate_language" name="calibration_certificate" value="Hindi">
+        <label for="certificate_language">Hindi</label>
+        <input type="checkbox" id="certificate_language" name="calibration_certificate" value="English">
+        <label for="certificate_language">English</label><br><br>
+
+        <label for="Quotation">NPL"s Quotation No.:</label>
+        <input type="text" id="Quotation" name="Quotaion">
+
+        <label for="dated">Dated:</label>
+        <input type="text" maxlength="1" size="1" pattern="[0-9]" name="digit1" required>&nbsp;
+        <input type="text" maxlength="1" size="1" pattern="[0-9]" name="digit2" required>&nbsp;
+        <input type="text" maxlength="1" size="1" pattern="[0-9]" name="digit3" required>&nbsp;<br>
+
+        <table>
+            <tr>
+                <th>Sr. No.</th>
+                <th>Name of Instrumental/Sample/Reference Material(BND)</th>
+                <th>Make/Model/Sr.No./Batch/Lot No. or any other identification</th>
+                <th>Qty. </th>
+                <th>Calibration/Testing requirements/specifications</th>
+                <th>Remarks, if any</th>
+            </tr>
+            <tr>
+                <td><input type="text" name="name1"></td>
+                <td><input type="text" name="email1"></td>
+                <td><input type="text" name="age1"></td>
+                <td><input type="text" name="name1"></td>
+                <td><input type="text" name="email1"></td>
+                <td><input type="text" name="age1"></td>
+            </tr>
+            <tr>
+                <td><input type="text" name="name2"></td>
+                <td><input type="text" name="email2"></td>
+                <td><input type="text" name="age2"></td>
+                <td><input type="text" name="name1"></td>
+                <td><input type="text" name="email1"></td>
+                <td><input type="text" name="age1"></td>
+            </tr>
+            <tr>
+                <td><input type="text" name="name3"></td>
+                <td><input type="text" name="email3"></td>
+                <td><input type="text" name="age3"></td>
+                <td><input type="text" name="name1"></td>
+                <td><input type="text" name="email1"></td>
+                <td><input type="text" name="age1"></td>
+            </tr>
+        </table><br>
+        <h6>Note: CSIR-NPL will provide recommendation date of next calibration in calibration certificate</h6><br>
+        <label for="calibration_testing">(8)Calibration/Testing to be done under::</label>
+        <input type="checkbox" id="address_1" name="calibration_testing" value="Normal service">
+        <label for="address_1">Normal service</label>
+        <input type="checkbox" id="address_2" name="calibration_testing" value="Express Service">
+        <label for="address_2">Express service</label><br>    
+        <label for="blank2">(9) Detals about Demand Draft/NEFT/RTGS:Name of the Bank:</label>
+        <input type="text" id="blank2" name="blank2">
+        
+        <label for="blank3">Branch::</label>
+        <input type="text" id="blank3" name="blank3">
+
+        <label for="blank4">Draft/NEFT/RTGS No.:</label>
+        <input type="text" id="blank4" name="blank4">
+
+        <label for="blank5">Date</label>:</label>
+        <input type="text" id="blank5" name="blank5">
+
+        <label for="blank6">Amount: Rs.:</label>
+        <input type="text" id="blank6" name="blank6">
+
+        <label for="blank7">TDS(if any):</label>
+        <input type="text" id="blank7" name="blank7"><br>
+
+        <label for="blank8">(10) Amount Rs.:</label>
+        <input type="text" id="blank8" name="blank8">\
+
+        <label for="blank9">(if any) carry forwarded from Case No:</label>
+        <input type="text" id="blank9" name="blank9">
+
+        <label for="blank10">Total(9+10)Rs.:</label>
+        <input type="text" id="blank10" name="blank10"><br>
+        <label for="mode_collection">(11)Mode of collection of certificate/report/BND:</label>
+        <input type="checkbox" id="address_1" name="mode_collection" value="By hand">
+        <label for="address_1">By hand</label>
+        <input type="checkbox" id="address_2" name="mode_collection" value="By Post">
+        <label for="address_2">By Post</label><br>
+        
+        <label for="blank5">(12) Name of the Depositor</label>:</label>
+        <input type="text" id="blank5" name="blank5">
+        <label for="blank3">Signature of the Depositior:</label>
+        <input type="text" id="blank3" name="blank3">
+        <label for="blank3">Date:</label>
+        <input type="text" id="blank3" name="blank3"><br><br>
+        <h7>For office use only:</h7><br>
+        <div class=".background-box">
+        <label for="blank3">Case No.:</label>
+        <input type="text" id="blank3" name="blank3">
+
+        <label for="blank4">Sub-Div.Name:</label>
+        <input type="text" id="blank4" name="blank4">
+
+        <label for="blank5">Sub-Div No</label>:</label>
+        <input type="text" id="blank5" name="blank5">
+
+        <label for="blank6">Head,Sub-Div.:</label>
+        <input type="text" id="blank6" name="blank6">
+
+        <label for="blank7">Room No:</label>
+        <input type="text" id="blank7" name="blank7"><br>
+
+        <label for="blank8">Calibration/test/BND charges:Rs.</label>
+        <input type="text" id="blank8" name="blank8">\
+
+        <label for="blank9">Site charges:Rs</label>
+        <input type="text" id="blank9" name="blank9">
+
+        <label for="blank10">Other charges:Rs</label>
+        <input type="text" id="blank10" name="blank10">
+
+        <label for="blank6">Sub-Total:Rs.</label>
+        <input type="text" id="blank6" name="blank6">
+
+        <label for="blank7">GST:Rs.</label>
+        <input type="text" id="blank7" name="blank7"><br>
+
+        <label for="blank6">Total charges:Rs.</label>
+        <input type="text" id="blank6" name="blank6">
+
+        <label for="blank7">TDS,if any:Rs.</label>
+        <input type="text" id="blank7" name="blank7">
+
+        <label for="blank6">Total Payable:Rs.</label>
+        <input type="text" id="blank6" name="blank6">
+
+        <label for="blank7">Balance/Surplus:Rs.</label>
+        <input type="text" id="blank7" name="blank7">
+
+        <label for="blank6">Amount Rs.</label>
+        <input type="text" id="blank6" name="blank6">
+
+        <label for="blank7">Transferred to Case No.:</label>
+        <input type="text" id="blank7" name="blank7">
+
+        <label for="blank7">EDC:</label>
+        <input type="text" id="blank7" name="blank7"><br>
+        </div>
+    </form>
+</body>
+</html>

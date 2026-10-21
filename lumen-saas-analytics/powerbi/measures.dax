@@ -1,0 +1,109 @@
+// Monthly measures. They respect the date filter.
+// Trailing-twelve-month NRR is NOT one of these. It lives on the disconnected
+// table metric_trailing_twelve_months, because it follows one fixed cohort
+// from October 2025 to September 2026. See BUILD.md.
+//
+// Do not count rows of fact_subscription_month. Churn rows are real rows with mrr = 0.
+
+Ending MRR = SUM ( fact_subscription_month[mrr] )
+
+Beginning MRR = SUM ( fact_subscription_month[prior_mrr] )
+
+New MRR =
+CALCULATE ( SUM ( fact_subscription_month[mrr] ), fact_subscription_month[movement] = "New" )
+
+Reactivation MRR =
+CALCULATE ( SUM ( fact_subscription_month[mrr] ), fact_subscription_month[movement] = "Reactivation" )
+
+Expansion MRR =
+CALCULATE (
+    SUM ( fact_subscription_month[mrr] - fact_subscription_month[prior_mrr] ),
+    fact_subscription_month[movement] = "Expansion"
+)
+
+Contraction MRR =
+CALCULATE (
+    SUM ( fact_subscription_month[prior_mrr] - fact_subscription_month[mrr] ),
+    fact_subscription_month[movement] = "Contraction"
+)
+
+Churned MRR =
+CALCULATE ( SUM ( fact_subscription_month[prior_mrr] ), fact_subscription_month[movement] = "Churn" )
+
+Bridge Check =
+[Beginning MRR] + [New MRR] + [Reactivation MRR] + [Expansion MRR]
+    - [Contraction MRR] - [Churned MRR] - [Ending MRR]
+
+ARR = [Ending MRR] * 12
+
+Active Logos =
+CALCULATE (
+    DISTINCTCOUNT ( fact_subscription_month[account_id] ),
+    fact_subscription_month[mrr] > 0
+)
+
+Beginning Logos =
+CALCULATE (
+    DISTINCTCOUNT ( fact_subscription_month[account_id] ),
+    fact_subscription_month[prior_mrr] > 0
+)
+
+Churned Logos =
+CALCULATE (
+    DISTINCTCOUNT ( fact_subscription_month[account_id] ),
+    fact_subscription_month[movement] = "Churn"
+)
+
+ARPA = DIVIDE ( [Ending MRR], [Active Logos] )
+
+Monthly Logo Churn Rate = DIVIDE ( [Churned Logos], [Beginning Logos] )
+
+// One month of movement. Not the trailing-twelve-month NRR in the memo.
+Monthly NRR =
+DIVIDE (
+    [Beginning MRR] + [Expansion MRR] - [Contraction MRR] - [Churned MRR],
+    [Beginning MRR]
+)
+
+Monthly GRR =
+DIVIDE (
+    [Beginning MRR] - [Contraction MRR] - [Churned MRR],
+    [Beginning MRR]
+)
+
+Quick Ratio =
+DIVIDE (
+    [New MRR] + [Reactivation MRR] + [Expansion MRR],
+    [Contraction MRR] + [Churned MRR]
+)
+
+Ending MRR PY =
+CALCULATE ( [Ending MRR], SAMEPERIODLASTYEAR ( dim_date[full_date] ) )
+
+Ending MRR YoY % =
+DIVIDE ( [Ending MRR] - [Ending MRR PY], [Ending MRR PY] )
+
+Marketing Spend = SUM ( fact_marketing_spend[spend] )
+
+New Logos =
+CALCULATE (
+    DISTINCTCOUNT ( fact_subscription_month[account_id] ),
+    fact_subscription_month[movement] = "New"
+)
+
+// Blended CAC for the dates in context. New logos are subscription rows,
+// so the date filter has to hit both facts through dim_date.
+Blended CAC = DIVIDE ( [Marketing Spend], [New Logos] )
+
+// Official scorecard. The table is disconnected on purpose.
+TTM NRR = MAX ( metric_trailing_twelve_months[nrr] )
+
+TTM GRR = MAX ( metric_trailing_twelve_months[grr] )
+
+TTM Logo Retention = MAX ( metric_trailing_twelve_months[logo_retention] )
+
+Next-Month Churn Rate =
+DIVIDE (
+    CALCULATE ( COUNTROWS ( fact_usage ), fact_usage[churned_next_month] = 1 ),
+    CALCULATE ( COUNTROWS ( fact_usage ), NOT ISBLANK ( fact_usage[churned_next_month] ) )
+)

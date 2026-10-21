@@ -1,0 +1,85 @@
+// Paste these into the fact_sales table, or into a blank measure table:
+//   _Measures = { BLANK() }
+// Then hide the blank column.
+//
+// Mark dim_date as a date table on full_date.
+// Sort month_name by month, and day_name by day_of_week.
+// Ratios use DIVIDE of sums. Do not average the rate columns.
+
+Net Revenue = SUM ( fact_sales[net_revenue] )
+
+Gross Profit = SUM ( fact_sales[gross_profit] )
+
+COGS = SUM ( fact_sales[cogs] )
+
+Discount Amount = SUM ( fact_sales[discount_amount] )
+
+Returned Amount = SUM ( fact_sales[returned_amount] )
+
+Units = SUM ( fact_sales[quantity] )
+
+Orders =
+DISTINCTCOUNT ( fact_sales[order_id] )
+
+Customers =
+DISTINCTCOUNT ( fact_sales[customer_id] )
+
+Gross Margin % =
+DIVIDE ( [Gross Profit], [Net Revenue] )
+
+AOV =
+DIVIDE ( [Net Revenue], [Orders] )
+
+Line Return Rate =
+DIVIDE (
+    CALCULATE ( COUNTROWS ( fact_sales ), fact_sales[is_returned] = 1 ),
+    COUNTROWS ( fact_sales )
+)
+
+Discount Rate =
+DIVIDE ( [Discount Amount], SUM ( fact_sales[kept_list_revenue] ) )
+
+Revenue Target = SUM ( fact_store_target[revenue_target] )
+
+Plan Attainment =
+DIVIDE ( [Net Revenue], [Revenue Target] )
+
+Plan Variance = [Net Revenue] - [Revenue Target]
+
+Net Revenue PY =
+CALCULATE (
+    [Net Revenue],
+    SAMEPERIODLASTYEAR ( dim_date[full_date] )
+)
+
+Net Revenue YoY % =
+DIVIDE ( [Net Revenue] - [Net Revenue PY], [Net Revenue PY] )
+
+Gross Profit PY =
+CALCULATE (
+    [Gross Profit],
+    SAMEPERIODLASTYEAR ( dim_date[full_date] )
+)
+
+Gross Margin PY % =
+DIVIDE ( [Gross Profit PY], [Net Revenue PY] )
+
+// Comparable year-to-date: January through September only.
+// Use this on a card when the page is not already filtered to those months.
+Net Revenue YTD Comparable =
+CALCULATE (
+    [Net Revenue],
+    dim_date[month] <= 9
+)
+
+Net Revenue YTD Comparable PY =
+CALCULATE (
+    [Net Revenue YTD Comparable],
+    SAMEPERIODLASTYEAR ( dim_date[full_date] )
+)
+
+YTD Comparable YoY % =
+DIVIDE (
+    [Net Revenue YTD Comparable] - [Net Revenue YTD Comparable PY],
+    [Net Revenue YTD Comparable PY]
+)

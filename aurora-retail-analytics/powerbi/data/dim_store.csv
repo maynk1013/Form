@@ -1,0 +1,13 @@
+store_id,store_name,city,state,region,opened_date,sq_ft
+1,Pike Place Home,Seattle,WA,West,2014-04-12,16200
+2,Mission Atelier,San Francisco,CA,West,2015-08-01,14800
+3,Abbot Kinney Home,Los Angeles,CA,West,2016-02-20,17100
+4,LoHi Living,Denver,CO,West,2018-06-15,13900
+5,South Congress House,Austin,TX,South,2017-03-09,15100
+6,Knox Henderson,Dallas,TX,South,2015-11-02,16800
+7,Inman Park Home,Atlanta,GA,South,2016-09-18,14400
+8,Design District,Miami,FL,South,2019-01-25,15800
+9,SoHo Residence,New York,NY,Northeast,2013-05-06,12400
+10,Newbury Home,Boston,MA,Northeast,2014-10-11,11800
+11,Lincoln Park Living,Chicago,IL,Midwest,2015-04-04,17600
+12,North Loop Goods,Minneapolis,MN,Midwest,2018-08-30,14900

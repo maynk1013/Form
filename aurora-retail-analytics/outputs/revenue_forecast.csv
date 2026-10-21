@@ -1,0 +1,4 @@
+month_start,year_month,forecast_net_revenue,forecast_low,forecast_high,method
+2026-10-01,2026-10,752811.58,732517.97,773105.19,linear trend on seasonally adjusted monthly net revenue; band is +/- 1 residual standard deviation
+2026-11-01,2026-11,1134992.24,1114698.63,1155285.84,linear trend on seasonally adjusted monthly net revenue; band is +/- 1 residual standard deviation
+2026-12-01,2026-12,1254870.09,1234576.49,1275163.7,linear trend on seasonally adjusted monthly net revenue; band is +/- 1 residual standard deviation

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Lumen subscription review</title>
+  <style>
+    :root {
+      --ink: #1b3a4b;
+      --muted: #5c6b73;
+      --line: #e4ddd4;
+      --paper: #f4f7f8;
+      --card: #ffffff;
+      --teal: #1f7a8c;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--paper);
+      color: var(--ink);
+      font-family: Georgia, "Iowan Old Style", Palatino, "Palatino Linotype", serif;
+    }
+    .wrap { max-width: 980px; margin: 0 auto; padding: 48px 24px 80px; }
+    .kicker {
+      font-family: "Avenir Next", "Segoe UI", sans-serif;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      font-size: 12px;
+      color: var(--teal);
+      margin: 0 0 8px;
+    }
+    h1 { font-weight: 500; letter-spacing: -0.03em; font-size: 40px; margin: 0 0 8px; }
+    .subtitle { color: var(--muted); font-size: 18px; margin: 0 0 28px; }
+    .kpis { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; margin-bottom: 28px; }
+    .kpi { background: var(--card); border-top: 3px solid var(--teal); padding: 14px 16px 12px; }
+    .label, .note {
+      font-family: "Avenir Next", "Segoe UI", sans-serif;
+      color: var(--muted);
+      margin: 0;
+    }
+    .label { font-size: 12px; letter-spacing: 0.04em; text-transform: uppercase; }
+    .value {
+      font-family: "Avenir Next", "Segoe UI", sans-serif;
+      font-size: 28px;
+      margin: 6px 0 4px;
+      letter-spacing: -0.03em;
+    }
+    .note { font-size: 13px; }
+    h2 { font-weight: 500; font-size: 26px; margin: 36px 0 12px; }
+    li { margin: 8px 0; line-height: 1.45; }
+    figure { margin: 28px 0; background: var(--card); padding: 16px 16px 8px; }
+    figcaption { font-family: "Avenir Next", "Segoe UI", sans-serif; font-size: 14px; margin-bottom: 8px; line-height: 1.4; }
+    img { width: 100%; height: auto; display: block; }
+    table { width: 100%; border-collapse: collapse; background: var(--card); font-family: "Avenir Next", "Segoe UI", sans-serif; font-size: 14px; }
+    th, td { text-align: left; padding: 8px 10px; border-bottom: 1px solid var(--line); }
+    th { font-size: 12px; letter-spacing: 0.04em; text-transform: uppercase; color: var(--muted); }
+    footer { margin-top: 36px; color: var(--muted); font-family: "Avenir Next", "Segoe UI", sans-serif; font-size: 13px; }
+    @media (max-width: 800px) {
+      .kpis { grid-template-columns: 1fr; }
+      h1 { font-size: 32px; }
+    }
+    @media print {
+      body { background: white; }
+      .kpi, figure, table { break-inside: avoid; }
+    }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <p class="kicker">SaaS analytics  ·  closed September 2026</p>
+    <h1>Lumen subscription review</h1>
+    <p class="subtitle">Ending MRR is the live book. Net revenue retention follows one cohort for twelve months. The two numbers answer different questions.</p>
+    <section class="kpis"><article class='kpi'><p class='label'>Ending MRR</p><p class='value'>$4.35M</p><p class='note'>September 2026 close</p></article><article class='kpi'><p class='label'>MRR vs last year</p><p class='value'>56.0%</p><p class='note'>September 2026 vs September 2025</p></article><article class='kpi'><p class='label'>Net revenue retention</p><p class='value'>96.4%</p><p class='note'>Oct 2025 cohort, valued Sep 2026</p></article><article class='kpi'><p class='label'>Gross revenue retention</p><p class='value'>87.5%</p><p class='note'>Same cohort, expansion capped</p></article><article class='kpi'><p class='label'>Logo retention</p><p class='value'>81.3%</p><p class='note'>Same cohort, still paying</p></article><article class='kpi'><p class='label'>Quick ratio</p><p class='value'>4.01</p><p class='note'>September: added MRR / lost MRR</p></article></section>
+    <h2>What the numbers say</h2>
+    <ul><li>Ending MRR in September 2026 is $4.35M, 56.0% versus September 2025. ARR on that ending balance is $52.21M.</li><li>The October 2025 cohort of paying accounts finished September 2026 at 96.4% net revenue retention and 87.5% gross revenue retention. Logo retention for that same group is 81.3%. Expansion did not replace the revenue that contracted or churned.</li><li>In September, the quick ratio was 4.01. New, reactivation, and expansion dollars cover the month&#x27;s losses more than twice over. The quick ratio counts new logos. The cohort NRR above does not. Pooled monthly logo churn is 8.9% on Starter and 0.5% on Enterprise.</li><li>Accounts in the lowest adoption quartile churned the next month at 10.1%, against 0.5% in the highest quartile (19.1×). Accounts that churned within 60 days were already opening 0.89 tickets a month, versus 0.61 for accounts that stayed.</li><li>Paid Search costs $14.2k per logo and keeps 70.2% of matured logos at month 6. Outbound keeps 83.7% at a CAC of $9,201. The ten largest accounts are 8.9% of ending MRR.</li></ul>
+    <h2>Actions</h2>
+    <ol><li>Treat Starter churn as an onboarding problem, not a discounting problem. Its pooled monthly logo churn is 8.9% against 0.5% on Enterprise. A price cut on the plan that already stays would not touch the logos that are leaving.</li><li>Page the account team when adoption falls into the bottom quartile. Those accounts churn the next month at 10.1%, against 0.5% for the top quartile. The signal is already in the usage table. It does not need a new model to be useful.</li><li>Move the next increment of budget from Paid Search toward Content. Paid Search costs $14.2k per logo and keeps 70.2% at month 6. Content keeps 81.9% and costs $4,351. Outbound retains slightly more (83.7%) but costs $9,201.</li></ol>
+    <figure><figcaption><strong>Ending MRR</strong> Ending MRR includes expansion and excludes churned accounts. It is not a sum of every historical month.</figcaption><img src='charts/mrr_trend.png' alt='Ending MRR'></figure><figure><figcaption><strong>September bridge</strong> Teal adds MRR and coral removes it. Beginning and ending are in the title because those totals are about $4M and the steps are not.</figcaption><img src='charts/mrr_waterfall.png' alt='September bridge'></figure><figure><figcaption><strong>Who is still here</strong> Each cell is logos still paying divided by the original cohort. Blank cells have not happened yet.</figcaption><img src='charts/cohort_retention.png' alt='Who is still here'></figure><figure><figcaption><strong>Adoption before churn</strong> Quartiles are ranked inside each month. Q1 is the lowest adoption score.</figcaption><img src='charts/usage_churn.png' alt='Adoption before churn'></figure>
+    <h2>Close by plan</h2><table><thead><tr><th>Plan</th><th>Logos</th><th>Ending MRR</th><th>ARPA</th><th>Avg seats</th></tr></thead><tbody><tr><td>Starter</td><td>119</td><td>$68.3k</td><td>$574</td><td>14.7</td></tr><tr><td>Growth</td><td>107</td><td>$227.9k</td><td>$2,130</td><td>23.9</td></tr><tr><td>Scale</td><td>144</td><td>$1.01M</td><td>$6,983</td><td>39.0</td></tr><tr><td>Enterprise</td><td>143</td><td>$3.05M</td><td>$21.3k</td><td>53.4</td></tr></tbody></table><h2>Channels</h2><table><thead><tr><th>Channel</th><th>Spend</th><th>New logos</th><th>CAC</th><th>Still paying at month 6</th></tr></thead><tbody><tr><td>Paid Search</td><td>$2.21M</td><td>155</td><td>$14.2k</td><td>70.2%</td></tr><tr><td>Outbound</td><td>$1.37M</td><td>149</td><td>$9,201</td><td>83.7%</td></tr><tr><td>Content</td><td>$639.6k</td><td>147</td><td>$4,351</td><td>81.9%</td></tr><tr><td>Partner</td><td>$478.1k</td><td>128</td><td>$3,735</td><td>78.0%</td></tr><tr><td>Organic</td><td>$261.1k</td><td>141</td><td>$1,852</td><td>77.3%</td></tr></tbody></table>
+    <footer>
+      <ul><li>Synthetic data for a portfolio project. Lumen Workspace is fictional.</li><li>Window: 2023-01-01 to 2026-09-01. 720 accounts, 10,777 account-months, 7,030 tickets.</li><li>Ending MRR is the sum of mrr on the close month. Churn rows are stored at mrr 0 so the bridge can see the lost dollars. Do not count rows to count customers.</li><li>Trailing-twelve-month NRR follows the accounts that were paying in October 2025 and values them again in September 2026, with churned accounts at zero. GRR caps each account at its starting MRR so expansion does not help the ratio.</li><li>Monthly NRR in the DAX file is a different measure: one month of movement divided by that month&#x27;s beginning MRR. Do not compare it with the trailing-twelve-month figure.</li><li>The highest pooled monthly logo churn by industry is Education at 4.8%. The lowest is Software at 2.0%.</li><li>Baseline MRR path if the last six months of rates repeat: 2026-10 $4.48M, 2026-11 $4.61M, 2026-12 $4.74M. It assumes new-logo dollars stay flat in absolute terms and that expansion, contraction, and churn stay a constant share of beginning MRR.</li><li>Power BI Desktop is Windows-only. The CSV model and DAX are in powerbi/. This HTML report is the view that opens on a Mac.</li></ul>
+    </footer>
+  </main>
+</body>
+</html>

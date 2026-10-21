@@ -1,0 +1,11 @@
+sku,product_name,category,net_revenue,gross_profit,gross_margin,line_return_rate,units
+FUR-100,Linen Sectional Sofa,Furniture,1889030.25,635614.29,0.3365,0.1193,1291
+TEX-340,Jute Area Rug 8x10,Textiles,1259575.8,587722.2,0.4666,0.0628,2981
+TEX-300,Stonewashed Linen Duvet,Textiles,755716.5,437482.08,0.5789,0.0513,4676
+FUR-110,Oak Dining Table,Furniture,1210292.6,432971.16,0.3577,0.1261,1058
+LGT-200,Arc Floor Lamp,Lighting,777969.85,428788.99,0.5512,0.0423,2632
+TEX-330,Percale Sheet Set,Textiles,593499.3,349825.44,0.5894,0.057,4384
+FUR-120,Walnut Writing Desk,Furniture,813954.6,299726.6,0.3682,0.126,1189
+TEX-350,Flatweave Hall Runner,Textiles,583987.5,293926.95,0.5033,0.0527,3781
+TEX-310,Wool Throw Blanket,Textiles,473455.8,285095.16,0.6022,0.0518,4262
+FUR-130,Boucle Lounge Chair,Furniture,826970.9,284769.8,0.3444,0.1145,1439

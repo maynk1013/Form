@@ -1,0 +1,5 @@
+usage_quartile,usage_band,account_months,next_month_churn_rate,avg_adoption
+1,Q1 lowest,2486,0.1014,37.5
+2,Q2,2473,0.0356,56.9
+3,Q3,2467,0.0101,70.0
+4,Q4 highest,2460,0.0053,87.3

@@ -1,0 +1,3 @@
+day_type,orders,net_revenue,aov,line_return_rate
+Weekday,15986,9886155.1,618.43,0.0514
+Weekend,8014,5048192.6,629.92,0.0553

@@ -1,0 +1,31 @@
+product_id,sku,product_name,category,subcategory,unit_cost,list_price
+1,FUR-100,Linen Sectional Sofa,Furniture,Seating,1101.42,1899.0
+2,FUR-110,Oak Dining Table,Furniture,Tables,839.44,1499.0
+3,FUR-120,Walnut Writing Desk,Furniture,Tables,494.45,899.0
+4,FUR-130,Boucle Lounge Chair,Furniture,Seating,426.93,749.0
+5,FUR-140,Upholstered Queen Bed,Furniture,Bedroom,779.4,1299.0
+6,FUR-150,Oak Media Console,Furniture,Storage,366.66,679.0
+7,LGT-200,Arc Floor Lamp,Lighting,Floor,138.18,329.0
+8,LGT-210,Opal Glass Pendant,Lighting,Ceiling,83.16,189.0
+9,LGT-220,Brass Table Lamp,Lighting,Table,59.6,149.0
+10,LGT-230,Linen Wall Sconce,Lighting,Wall,48.79,119.0
+11,LGT-240,Outdoor Lantern Pair,Lighting,Outdoor,73.14,159.0
+12,TEX-300,Stonewashed Linen Duvet,Textiles,Bedding,71.82,189.0
+13,TEX-310,Wool Throw Blanket,Textiles,Throws,46.44,129.0
+14,TEX-320,Performance Velvet Pillow,Textiles,Pillows,16.66,49.0
+15,TEX-330,Percale Sheet Set,Textiles,Bedding,58.83,159.0
+16,TEX-340,Jute Area Rug 8x10,Textiles,Rugs,239.52,499.0
+17,TEX-350,Flatweave Hall Runner,Textiles,Rugs,80.55,179.0
+18,TEX-360,Blackout Curtain Panel,Textiles,Window,35.6,89.0
+19,DEC-400,Ceramic Table Vase,Decor,Accents,17.64,42.0
+20,DEC-410,Framed Abstract Print,Decor,Art,51.6,129.0
+21,DEC-420,Handwoven Basket Set,Decor,Storage,34.76,79.0
+22,DEC-430,Marble Bookends,Decor,Accents,27.14,59.0
+23,DEC-440,Scented Candle Trio,Decor,Fragrance,15.36,48.0
+24,DEC-450,Oak Picture Frame Set,Decor,Art,16.77,39.0
+25,KIT-500,Stoneware Dinner Set,Kitchen,Dining,84.5,169.0
+26,KIT-510,Cast Iron Dutch Oven,Kitchen,Cookware,77.48,149.0
+27,KIT-520,Linen Napkin Set,Kitchen,Linens,12.96,36.0
+28,KIT-530,Acacia Serving Board,Kitchen,Serve,27.84,58.0
+29,KIT-540,Glass Storage Canisters,Kitchen,Storage,20.68,44.0
+30,KIT-550,Matte Cutlery Set,Kitchen,Dining,45.39,89.0

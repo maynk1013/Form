@@ -1,0 +1,721 @@
+account_id,account_name,industry,region,employee_band,signup_date,channel_id
+1,Arden North Labs,Manufacturing,North America,1-20,2026-08-08,1
+2,Brightpath Grove Collective,Software,North America,21-100,2024-05-09,2
+3,Copper Metro Clinic,Software,APAC,21-100,2025-10-05,1
+4,Halcyon West Systems,Financial Services,EMEA,21-100,2024-04-21,5
+5,Brightpath Coast Works,Financial Services,APAC,1-20,2026-08-21,3
+6,Oak Peak Logistics,Media,EMEA,21-100,2025-11-02,1
+7,Oak Grove Transit,Financial Services,APAC,21-100,2025-06-10,2
+8,Fable West Systems,Media,North America,1-20,2023-11-26,1
+9,Redwood Coast Foods,Manufacturing,North America,1-20,2026-09-21,1
+10,Lark North Retail,Manufacturing,APAC,21-100,2025-07-26,3
+11,Harbor West Works,Financial Services,North America,21-100,2024-06-29,3
+12,Cedar Coast Foods,Financial Services,North America,101-500,2024-12-23,2
+13,Northline West Works,Healthcare,North America,501+,2023-04-12,4
+14,Oak Hill Supply,Software,North America,21-100,2023-07-30,4
+15,Copper West Labs,Education,EMEA,1-20,2024-02-13,4
+16,Woven Coast Health,Software,North America,21-100,2023-10-04,2
+17,Vesper North Goods,Manufacturing,North America,1-20,2025-04-26,2
+18,Cedar North Retail,Media,EMEA,1-20,2026-06-03,5
+19,Brightpath West Retail,Software,North America,1-20,2026-01-21,5
+20,Marlow Bay Logistics,Software,APAC,1-20,2023-10-04,5
+21,Kindred West Clinic,Healthcare,North America,101-500,2023-03-01,3
+22,Lark North Media,Retail,North America,1-20,2026-02-09,4
+23,Marlow River Media,Healthcare,EMEA,501+,2025-04-12,1
+24,Redwood East Works,Healthcare,APAC,1-20,2024-10-12,3
+25,Fieldnote Grove Goods,Financial Services,North America,1-20,2025-05-24,2
+26,Arden Hill Works,Education,APAC,501+,2025-10-03,2
+27,Halcyon Bay Goods,Media,North America,1-20,2024-12-20,2
+28,Redwood West Foods,Financial Services,North America,501+,2024-11-20,2
+29,Marlow Grove Retail,Retail,North America,101-500,2023-08-22,3
+30,Cedar Peak Systems,Healthcare,North America,21-100,2025-06-05,5
+31,Arden Peak Systems,Media,APAC,21-100,2026-04-20,1
+32,Silverline Bay Logistics,Retail,APAC,101-500,2024-10-20,5
+33,Brightpath West Studio,Education,EMEA,21-100,2024-02-18,2
+34,Oak River Works,Software,APAC,1-20,2025-04-12,2
+35,Kinship River Transit,Financial Services,North America,101-500,2026-03-27,1
+36,Kinship Metro Transit,Manufacturing,APAC,21-100,2025-09-26,4
+37,Redwood Metro Health,Education,North America,1-20,2025-11-21,3
+38,Cedar Grove Systems,Media,North America,1-20,2025-06-11,2
+39,Arden Coast Works,Education,EMEA,21-100,2023-11-24,3
+40,Woven East Retail,Healthcare,North America,21-100,2025-05-27,3
+41,Vesper Peak Logistics,Software,North America,21-100,2026-03-25,4
+42,Sable River Media,Retail,EMEA,101-500,2026-08-02,1
+43,Cedar Metro Works,Education,EMEA,101-500,2026-01-25,2
+44,Vesper River Health,Manufacturing,EMEA,1-20,2023-09-15,3
+45,Kinship Grove Media,Software,EMEA,101-500,2026-09-13,1
+46,Arden East Works,Software,North America,21-100,2025-05-06,3
+47,Marlow River Energy,Media,North America,101-500,2025-02-23,4
+48,Fable Bay Clinic,Education,EMEA,101-500,2025-01-11,4
+49,Pebble Metro Foods,Financial Services,North America,1-20,2025-10-31,5
+50,Sable Metro Studio,Manufacturing,North America,21-100,2024-11-23,5
+51,Oak Coast Retail,Healthcare,North America,1-20,2025-03-03,5
+52,Fieldnote Metro Health,Healthcare,North America,21-100,2024-08-27,2
+53,Harbor Grove Supply,Financial Services,North America,21-100,2026-02-06,1
+54,Fable River Foods,Software,EMEA,501+,2023-11-20,2
+55,Kindred River Media,Retail,APAC,1-20,2024-08-14,4
+56,Silverline Metro Health,Healthcare,EMEA,1-20,2025-12-06,5
+57,Redwood East Health,Media,EMEA,21-100,2024-11-23,2
+58,Pebble Metro Health,Education,EMEA,1-20,2025-12-12,3
+59,Redwood Hill Labs,Media,EMEA,21-100,2023-09-03,2
+60,Brightpath Peak Systems,Media,North America,21-100,2026-05-17,4
+61,Vesper Coast Energy,Financial Services,EMEA,21-100,2025-10-22,1
+62,Pebble West Labs,Retail,North America,21-100,2025-09-26,4
+63,Kindred Metro Health,Manufacturing,North America,1-20,2024-04-30,5
+64,Fable Coast Works,Financial Services,North America,101-500,2026-03-04,2
+65,Pebble East Supply,Media,North America,101-500,2025-11-13,5
+66,Copper Peak Works,Education,North America,501+,2024-12-25,2
+67,Oak Peak Energy,Manufacturing,EMEA,21-100,2025-06-15,2
+68,Fable Grove Media,Financial Services,North America,101-500,2024-06-15,2
+69,Kinship North Retail,Education,APAC,101-500,2025-10-21,3
+70,Copper Peak Foods,Healthcare,North America,1-20,2024-03-22,1
+71,Fable Grove Retail,Healthcare,North America,1-20,2026-06-19,5
+72,Oak Bay Media,Healthcare,EMEA,21-100,2024-10-02,4
+73,Silverline Bay Labs,Manufacturing,North America,21-100,2024-05-24,4
+74,Halcyon Hill Foods,Media,EMEA,501+,2025-10-29,4
+75,Silverline Metro Labs,Healthcare,North America,1-20,2025-06-20,2
+76,Pebble Bay Works,Healthcare,EMEA,1-20,2026-04-21,5
+77,Redwood Hill Systems,Education,North America,1-20,2025-02-24,2
+78,Silverline Grove Health,Software,APAC,21-100,2025-11-25,2
+79,Kinship Grove Retail,Software,North America,501+,2024-09-24,2
+80,Halcyon Peak Health,Manufacturing,APAC,21-100,2023-07-20,3
+81,Woven West Media,Retail,APAC,21-100,2023-09-18,3
+82,Oak River Energy,Software,EMEA,1-20,2024-05-22,5
+83,Northline East Studio,Retail,North America,501+,2024-11-04,2
+84,Copper Coast Studio,Software,North America,21-100,2023-04-26,5
+85,Harbor West Collective,Manufacturing,North America,501+,2024-11-21,4
+86,Kindred West Energy,Manufacturing,EMEA,101-500,2025-04-19,5
+87,Redwood Peak Goods,Manufacturing,EMEA,101-500,2026-04-24,4
+88,Marlow West Systems,Education,North America,1-20,2025-06-21,2
+89,Pebble River Energy,Media,APAC,21-100,2025-11-30,1
+90,Redwood North Goods,Software,North America,1-20,2026-09-09,5
+91,Lark River Systems,Manufacturing,North America,21-100,2026-06-04,2
+92,Harbor Bay Supply,Retail,North America,501+,2026-04-14,1
+93,Oak Metro Clinic,Retail,EMEA,21-100,2024-09-15,5
+94,Fieldnote Grove Clinic,Media,North America,1-20,2024-04-12,2
+95,Marlow Hill Systems,Financial Services,APAC,101-500,2026-06-26,1
+96,Arden West Logistics,Healthcare,North America,501+,2025-09-19,5
+97,Kindred Coast Clinic,Manufacturing,North America,21-100,2026-03-29,3
+98,Harbor East Foods,Manufacturing,EMEA,101-500,2025-12-04,2
+99,Marlow East Supply,Financial Services,EMEA,101-500,2026-02-27,5
+100,Harbor West Retail,Education,EMEA,21-100,2024-06-23,4
+101,Marlow Hill Supply,Financial Services,North America,21-100,2024-12-15,1
+102,Fable East Collective,Software,APAC,21-100,2025-12-03,5
+103,Kindred Coast Media,Media,North America,101-500,2026-09-03,1
+104,Vesper East Retail,Manufacturing,APAC,501+,2026-03-20,5
+105,Lark West Media,Media,North America,21-100,2025-05-15,2
+106,Silverline West Clinic,Retail,North America,1-20,2025-09-20,4
+107,Fable East Works,Education,APAC,1-20,2025-05-25,5
+108,Pebble River Collective,Manufacturing,APAC,21-100,2023-07-09,4
+109,Cedar Hill Goods,Media,APAC,21-100,2026-04-24,4
+110,Lark East Energy,Retail,APAC,101-500,2025-07-13,1
+111,Vesper West Collective,Software,APAC,101-500,2025-07-30,1
+112,Fable North Transit,Education,EMEA,101-500,2026-04-15,3
+113,Silverline West Labs,Software,North America,1-20,2026-01-14,5
+114,Silverline Grove Labs,Financial Services,North America,501+,2025-04-23,1
+115,Kinship North Systems,Retail,EMEA,1-20,2023-12-04,5
+116,Marlow East Labs,Retail,EMEA,21-100,2025-06-27,2
+117,Woven North Studio,Financial Services,EMEA,1-20,2023-12-12,4
+118,Silverline Peak Energy,Software,APAC,21-100,2025-01-13,5
+119,Brightpath Metro Works,Media,North America,1-20,2026-03-23,4
+120,Silverline Bay Supply,Healthcare,North America,21-100,2026-07-20,2
+121,Copper West Media,Manufacturing,North America,21-100,2025-06-13,3
+122,Woven Peak Collective,Education,North America,1-20,2024-11-16,4
+123,Pebble Coast Systems,Education,EMEA,21-100,2024-02-19,3
+124,Brightpath Metro Health,Manufacturing,North America,21-100,2026-03-18,4
+125,Brightpath Peak Clinic,Media,APAC,101-500,2024-09-01,5
+126,Harbor West Studio,Software,EMEA,1-20,2026-05-11,3
+127,Woven Metro Media,Media,EMEA,21-100,2023-08-05,5
+128,Lark East Studio,Education,EMEA,1-20,2024-08-15,4
+129,Fieldnote Bay Retail,Software,APAC,1-20,2024-07-29,5
+130,Northline West Labs,Manufacturing,EMEA,1-20,2026-07-22,5
+131,Vesper Bay Supply,Manufacturing,EMEA,21-100,2026-04-20,4
+132,Fieldnote Peak Clinic,Retail,North America,21-100,2024-08-27,3
+133,Fable Grove Logistics,Software,North America,1-20,2024-04-01,2
+134,Vesper Coast Supply,Manufacturing,North America,1-20,2026-09-04,4
+135,Copper Grove Labs,Healthcare,North America,1-20,2025-01-13,4
+136,Copper North Goods,Software,North America,101-500,2024-07-01,5
+137,Vesper Hill Works,Retail,North America,21-100,2024-09-28,5
+138,Oak Bay Foods,Financial Services,North America,21-100,2023-09-12,1
+139,Brightpath Coast Media,Media,EMEA,21-100,2025-06-23,5
+140,Arden River Systems,Software,EMEA,1-20,2024-09-08,1
+141,Kinship Peak Clinic,Education,APAC,501+,2025-11-07,1
+142,Silverline Bay Works,Manufacturing,EMEA,1-20,2023-09-13,2
+143,Vesper Peak Foods,Manufacturing,North America,21-100,2024-09-23,3
+144,Kinship Bay Goods,Manufacturing,North America,21-100,2025-04-15,4
+145,Marlow Metro Health,Manufacturing,EMEA,1-20,2026-02-11,5
+146,Silverline North Transit,Media,North America,501+,2026-03-27,4
+147,Pebble East Transit,Software,EMEA,21-100,2026-07-15,1
+148,Pebble East Energy,Media,North America,21-100,2024-09-19,3
+149,Marlow Bay Retail,Financial Services,North America,1-20,2026-09-19,4
+150,Halcyon North Studio,Media,EMEA,21-100,2024-12-18,1
+151,Copper West Supply,Healthcare,EMEA,501+,2023-02-19,5
+152,Fable Peak Systems,Media,APAC,101-500,2023-10-28,3
+153,Harbor Coast Supply,Financial Services,North America,21-100,2025-12-07,2
+154,Cedar Hill Supply,Financial Services,North America,21-100,2024-08-23,5
+155,Silverline North Systems,Media,North America,1-20,2025-06-14,4
+156,Arden Peak Transit,Financial Services,North America,21-100,2024-07-16,1
+157,Kinship Grove Clinic,Financial Services,APAC,21-100,2025-09-06,5
+158,Woven Peak Goods,Software,North America,1-20,2026-01-02,5
+159,Halcyon River Health,Healthcare,APAC,101-500,2024-10-01,4
+160,Copper East Clinic,Manufacturing,APAC,1-20,2023-10-21,4
+161,Kinship Hill Transit,Healthcare,APAC,21-100,2023-06-06,3
+162,Kinship Metro Logistics,Retail,North America,501+,2025-07-28,4
+163,Fieldnote Grove Logistics,Healthcare,APAC,1-20,2025-06-30,1
+164,Copper West Logistics,Media,APAC,1-20,2023-07-04,2
+165,Pebble River Works,Healthcare,North America,501+,2023-12-31,1
+166,Woven West Foods,Healthcare,North America,1-20,2023-12-12,3
+167,Redwood Coast Transit,Education,North America,1-20,2026-05-30,1
+168,Pebble Metro Goods,Healthcare,EMEA,1-20,2023-07-24,3
+169,Copper North Systems,Software,EMEA,21-100,2026-07-21,5
+170,Pebble North Labs,Manufacturing,North America,21-100,2024-09-21,5
+171,Brightpath West Transit,Financial Services,North America,21-100,2023-03-11,3
+172,Halcyon Bay Media,Manufacturing,North America,21-100,2024-12-13,1
+173,Brightpath West Supply,Manufacturing,APAC,101-500,2024-10-11,4
+174,Pebble Bay Labs,Media,APAC,501+,2023-09-08,2
+175,Vesper West Studio,Software,APAC,501+,2026-08-09,1
+176,Sable North Health,Education,EMEA,21-100,2026-08-29,2
+177,Redwood Metro Supply,Healthcare,North America,21-100,2026-08-18,5
+178,Redwood East Systems,Retail,EMEA,101-500,2026-05-15,5
+179,Redwood West Goods,Education,North America,21-100,2023-03-11,1
+180,Northline Bay Systems,Financial Services,North America,1-20,2024-10-14,1
+181,Fieldnote Bay Studio,Education,EMEA,21-100,2025-11-29,2
+182,Fieldnote Bay Labs,Retail,North America,21-100,2025-07-25,3
+183,Fable East Studio,Retail,EMEA,101-500,2024-11-25,3
+184,Sable West Transit,Financial Services,North America,21-100,2024-04-01,4
+185,Harbor Grove Media,Healthcare,APAC,1-20,2026-04-24,1
+186,Arden Coast Labs,Healthcare,North America,21-100,2024-01-20,4
+187,Fable North Retail,Manufacturing,EMEA,21-100,2026-04-24,1
+188,Oak River Supply,Education,APAC,21-100,2024-06-12,3
+189,Fieldnote Peak Studio,Retail,EMEA,21-100,2026-04-24,3
+190,Halcyon Coast Goods,Financial Services,North America,21-100,2024-04-06,3
+191,Vesper North Works,Software,EMEA,501+,2025-06-13,4
+192,Sable Peak Logistics,Retail,North America,1-20,2025-07-31,1
+193,Sable Peak Energy,Software,EMEA,21-100,2025-07-09,3
+194,Sable East Clinic,Manufacturing,North America,21-100,2026-03-15,2
+195,Kinship East Supply,Retail,North America,21-100,2023-10-21,5
+196,Pebble Grove Media,Financial Services,North America,21-100,2024-04-30,2
+197,Woven Hill Works,Retail,APAC,21-100,2023-11-08,1
+198,Arden West Works,Software,EMEA,101-500,2026-06-24,1
+199,Fable Grove Goods,Education,North America,501+,2025-04-02,3
+200,Oak Bay Energy,Healthcare,North America,21-100,2024-12-30,5
+201,Fieldnote East Logistics,Media,EMEA,1-20,2026-01-13,4
+202,Harbor Grove Clinic,Education,EMEA,21-100,2026-08-07,3
+203,Harbor Metro Media,Healthcare,APAC,21-100,2024-10-18,3
+204,Oak East Retail,Education,North America,501+,2025-04-03,4
+205,Brightpath Metro Supply,Financial Services,North America,101-500,2026-09-16,1
+206,Brightpath North Systems,Media,APAC,501+,2025-09-28,3
+207,Halcyon Coast Media,Retail,EMEA,1-20,2023-03-07,1
+208,Kindred Peak Collective,Education,APAC,21-100,2023-12-01,1
+209,Brightpath Metro Collective,Software,EMEA,101-500,2023-08-10,2
+210,Fieldnote River Studio,Retail,EMEA,101-500,2026-02-18,1
+211,Vesper Bay Media,Software,EMEA,21-100,2024-11-12,1
+212,Marlow East Systems,Healthcare,North America,1-20,2023-12-13,1
+213,Lark Grove Systems,Retail,EMEA,101-500,2023-09-16,1
+214,Harbor Bay Works,Financial Services,North America,1-20,2024-04-22,2
+215,Brightpath West Labs,Manufacturing,APAC,1-20,2026-02-13,4
+216,Kindred North Collective,Media,North America,101-500,2024-02-20,2
+217,Oak East Collective,Healthcare,North America,101-500,2026-08-02,1
+218,Brightpath North Clinic,Financial Services,EMEA,1-20,2023-03-09,1
+219,Copper East Logistics,Healthcare,North America,501+,2025-03-31,1
+220,Cedar Bay Retail,Retail,APAC,101-500,2026-09-14,3
+221,Fieldnote North Transit,Manufacturing,North America,21-100,2025-06-03,2
+222,Pebble North Goods,Manufacturing,EMEA,1-20,2026-08-30,4
+223,Lark East Media,Software,APAC,501+,2025-02-27,3
+224,Fieldnote Hill Health,Software,EMEA,1-20,2024-01-30,3
+225,Brightpath Bay Energy,Software,North America,21-100,2026-03-07,3
+226,Woven Coast Works,Education,North America,1-20,2025-09-29,3
+227,Cedar Grove Collective,Healthcare,North America,101-500,2024-06-29,1
+228,Harbor Peak Health,Manufacturing,North America,101-500,2023-10-25,1
+229,Sable River Transit,Media,North America,501+,2025-08-22,4
+230,Redwood Grove Goods,Software,EMEA,21-100,2026-07-11,4
+231,Sable Metro Clinic,Healthcare,APAC,21-100,2025-09-03,5
+232,Oak River Goods,Retail,North America,1-20,2023-08-28,1
+233,Vesper Peak Transit,Healthcare,North America,21-100,2025-12-21,1
+234,Pebble Coast Studio,Education,EMEA,501+,2024-01-05,3
+235,Fieldnote Peak Works,Financial Services,North America,1-20,2025-02-17,5
+236,Sable Grove Retail,Retail,North America,21-100,2025-04-09,1
+237,Fable Peak Logistics,Retail,North America,501+,2025-12-04,4
+238,Copper East Retail,Retail,EMEA,1-20,2023-11-01,5
+239,Marlow East Media,Media,APAC,1-20,2025-01-26,4
+240,Copper Grove Supply,Manufacturing,North America,1-20,2024-06-27,1
+241,Copper Bay Labs,Media,APAC,21-100,2024-05-20,5
+242,Northline Grove Media,Retail,APAC,1-20,2023-12-28,1
+243,Kinship Bay Media,Manufacturing,North America,1-20,2024-01-20,2
+244,Fable Metro Logistics,Retail,North America,21-100,2024-11-12,1
+245,Redwood West Media,Software,North America,1-20,2024-12-10,1
+246,Kindred West Media,Retail,North America,1-20,2026-05-03,3
+247,Kinship Metro Retail,Education,North America,101-500,2026-05-13,1
+248,Woven East Goods,Media,EMEA,21-100,2026-07-20,5
+249,Fable Bay Collective,Education,North America,21-100,2025-10-16,4
+250,Kindred Grove Goods,Retail,North America,21-100,2025-05-10,4
+251,Kinship Peak Transit,Financial Services,EMEA,501+,2026-02-06,1
+252,Marlow River Labs,Financial Services,North America,1-20,2026-08-31,5
+253,Kindred River Goods,Media,APAC,1-20,2024-01-08,3
+254,Pebble Coast Energy,Education,North America,21-100,2025-07-22,2
+255,Oak North Goods,Education,North America,1-20,2025-02-22,5
+256,Kindred North Logistics,Software,North America,1-20,2024-10-12,2
+257,Harbor Bay Labs,Financial Services,North America,501+,2024-01-07,5
+258,Northline Metro Transit,Education,North America,1-20,2026-08-16,2
+259,Vesper Peak Supply,Manufacturing,EMEA,1-20,2026-05-05,3
+260,Marlow Bay Media,Financial Services,EMEA,21-100,2026-02-08,3
+261,Copper Hill Systems,Media,North America,101-500,2025-04-21,3
+262,Oak River Collective,Software,North America,1-20,2024-08-18,4
+263,Kinship East Studio,Manufacturing,EMEA,21-100,2024-08-09,3
+264,Silverline Grove Foods,Manufacturing,EMEA,501+,2026-05-10,3
+265,Fable West Supply,Retail,North America,1-20,2023-07-20,4
+266,Marlow North Labs,Retail,North America,1-20,2023-03-05,2
+267,Arden Grove Systems,Healthcare,EMEA,1-20,2026-08-09,4
+268,Northline River Logistics,Software,North America,21-100,2026-09-20,3
+269,Silverline Metro Works,Media,North America,1-20,2024-12-20,3
+270,Lark East Health,Media,APAC,21-100,2023-01-22,3
+271,Kindred North Labs,Manufacturing,EMEA,21-100,2026-08-26,5
+272,Redwood Hill Retail,Software,North America,101-500,2024-06-22,1
+273,Redwood Coast Logistics,Software,APAC,1-20,2024-10-31,1
+274,Lark West Works,Software,North America,1-20,2024-05-10,3
+275,Copper Bay Collective,Media,EMEA,21-100,2026-03-24,3
+276,Redwood West Collective,Software,EMEA,1-20,2023-10-02,2
+277,Brightpath West Goods,Healthcare,North America,501+,2026-01-24,4
+278,Sable Hill Labs,Education,North America,501+,2026-02-12,5
+279,Redwood Peak Labs,Manufacturing,APAC,501+,2026-03-14,4
+280,Arden River Supply,Education,EMEA,1-20,2025-03-27,3
+281,Pebble Metro Energy,Manufacturing,EMEA,1-20,2024-10-04,5
+282,Oak Metro Health,Healthcare,APAC,1-20,2025-04-25,4
+283,Harbor Hill Retail,Financial Services,North America,21-100,2025-01-30,1
+284,Fable Hill Supply,Healthcare,EMEA,501+,2026-06-01,1
+285,Silverline Coast Clinic,Manufacturing,EMEA,1-20,2023-01-17,2
+286,Vesper River Supply,Software,North America,101-500,2026-01-26,1
+287,Oak Coast Goods,Manufacturing,North America,21-100,2024-03-25,5
+288,Kindred Grove Media,Financial Services,North America,21-100,2025-03-27,2
+289,Lark Bay Energy,Manufacturing,North America,501+,2023-07-29,5
+290,Brightpath Coast Clinic,Manufacturing,EMEA,1-20,2026-07-15,3
+291,Arden North Clinic,Manufacturing,EMEA,21-100,2025-10-28,4
+292,Silverline River Foods,Manufacturing,North America,101-500,2026-08-24,3
+293,Vesper Grove Systems,Software,EMEA,1-20,2024-12-04,5
+294,Sable Hill Clinic,Education,North America,101-500,2025-12-13,4
+295,Vesper North Systems,Healthcare,EMEA,1-20,2024-05-30,1
+296,Fable Bay Supply,Manufacturing,North America,21-100,2023-06-06,2
+297,Kinship Coast Systems,Financial Services,North America,101-500,2026-05-03,2
+298,Northline West Media,Manufacturing,North America,1-20,2024-09-21,5
+299,Kindred Grove Studio,Financial Services,APAC,21-100,2024-11-07,1
+300,Lark West Health,Financial Services,EMEA,21-100,2024-05-23,4
+301,Harbor East Labs,Media,EMEA,21-100,2025-01-04,2
+302,Vesper West Clinic,Software,North America,1-20,2025-10-25,2
+303,Silverline Hill Health,Manufacturing,EMEA,101-500,2025-09-04,1
+304,Silverline East Studio,Retail,EMEA,21-100,2025-04-27,2
+305,Northline Hill Retail,Media,APAC,101-500,2026-06-15,1
+306,Redwood River Health,Retail,EMEA,501+,2023-12-24,4
+307,Harbor Bay Health,Manufacturing,EMEA,1-20,2025-11-27,5
+308,Marlow Hill Media,Retail,North America,101-500,2023-10-25,5
+309,Arden Bay Energy,Manufacturing,North America,21-100,2023-10-08,4
+310,Redwood East Transit,Media,North America,21-100,2025-11-02,5
+311,Cedar North Clinic,Healthcare,EMEA,21-100,2025-10-06,1
+312,Lark West Systems,Financial Services,EMEA,21-100,2026-01-30,5
+313,Brightpath East Retail,Financial Services,EMEA,101-500,2026-07-10,5
+314,Cedar Coast Transit,Manufacturing,North America,21-100,2025-07-02,4
+315,Redwood Bay Retail,Retail,APAC,501+,2023-10-06,3
+316,Sable Peak Supply,Retail,EMEA,501+,2025-01-31,3
+317,Fieldnote East Goods,Financial Services,EMEA,21-100,2025-04-24,2
+318,Arden North Logistics,Manufacturing,North America,21-100,2025-01-19,4
+319,Lark Grove Retail,Software,EMEA,1-20,2023-06-14,5
+320,Lark Bay Goods,Education,APAC,1-20,2026-07-21,4
+321,Lark Grove Energy,Media,EMEA,1-20,2023-06-14,2
+322,Kinship North Transit,Media,EMEA,501+,2023-05-06,1
+323,Pebble Grove Collective,Education,EMEA,21-100,2024-10-16,1
+324,Northline North Retail,Education,EMEA,21-100,2026-03-20,2
+325,Oak Bay Studio,Software,North America,101-500,2025-06-02,3
+326,Sable Grove Works,Healthcare,EMEA,101-500,2025-04-16,5
+327,Kinship Hill Works,Education,EMEA,101-500,2023-07-11,2
+328,Harbor Hill Labs,Media,North America,1-20,2026-01-18,5
+329,Pebble Metro Labs,Media,North America,101-500,2024-09-07,5
+330,Northline East Health,Financial Services,North America,101-500,2026-01-15,2
+331,Kinship Bay Works,Education,North America,21-100,2023-01-30,5
+332,Kindred Coast Health,Media,North America,21-100,2025-11-10,4
+333,Vesper Hill Supply,Healthcare,APAC,101-500,2025-11-29,5
+334,Halcyon River Foods,Financial Services,North America,21-100,2024-01-16,1
+335,Marlow West Clinic,Retail,North America,21-100,2024-04-09,3
+336,Redwood River Logistics,Media,North America,501+,2024-11-18,2
+337,Kinship North Energy,Education,APAC,21-100,2025-04-14,1
+338,Copper Coast Foods,Media,APAC,21-100,2024-08-13,2
+339,Cedar Grove Retail,Financial Services,North America,21-100,2025-04-24,2
+340,Arden Peak Collective,Healthcare,North America,1-20,2025-03-27,5
+341,Kinship Grove Energy,Healthcare,North America,1-20,2025-09-10,2
+342,Silverline Bay Clinic,Manufacturing,North America,1-20,2024-10-18,2
+343,Sable North Systems,Retail,EMEA,1-20,2024-04-14,4
+344,Woven West Systems,Manufacturing,EMEA,21-100,2025-02-05,3
+345,Harbor West Goods,Healthcare,EMEA,1-20,2025-07-06,3
+346,Lark Metro Systems,Healthcare,North America,21-100,2025-09-13,4
+347,Pebble Coast Labs,Healthcare,North America,101-500,2026-02-07,1
+348,Fieldnote East Clinic,Media,North America,21-100,2025-07-25,4
+349,Kinship Metro Goods,Software,EMEA,101-500,2024-02-26,4
+350,Harbor Metro Studio,Financial Services,EMEA,501+,2024-10-24,5
+351,Pebble Metro Studio,Retail,North America,1-20,2026-09-14,2
+352,Vesper Grove Logistics,Manufacturing,EMEA,21-100,2024-10-03,5
+353,Kinship Bay Systems,Software,EMEA,21-100,2026-06-15,5
+354,Kinship North Goods,Healthcare,EMEA,21-100,2026-04-28,5
+355,Silverline Metro Collective,Healthcare,North America,21-100,2024-09-22,1
+356,Redwood Grove Energy,Software,EMEA,1-20,2024-10-02,4
+357,Cedar Metro Systems,Software,EMEA,1-20,2025-09-12,4
+358,Cedar West Logistics,Manufacturing,EMEA,21-100,2024-10-29,4
+359,Harbor River Goods,Retail,North America,101-500,2023-08-07,4
+360,Halcyon Peak Clinic,Media,APAC,21-100,2026-07-22,2
+361,Pebble Metro Clinic,Education,EMEA,21-100,2024-01-09,4
+362,Northline Coast Systems,Financial Services,North America,21-100,2025-04-03,5
+363,Vesper River Clinic,Healthcare,North America,101-500,2023-09-06,2
+364,Fable Hill Studio,Manufacturing,North America,21-100,2025-11-01,5
+365,Woven North Collective,Retail,EMEA,1-20,2025-01-26,2
+366,Kindred West Works,Education,EMEA,1-20,2023-09-05,5
+367,Oak Peak Media,Financial Services,North America,21-100,2025-01-09,2
+368,Marlow Coast Collective,Software,EMEA,21-100,2024-05-01,2
+369,Redwood Peak Supply,Retail,EMEA,101-500,2024-12-25,2
+370,Marlow North Foods,Software,North America,1-20,2023-05-26,3
+371,Sable Hill Logistics,Media,North America,21-100,2024-08-11,1
+372,Kindred Hill Media,Financial Services,EMEA,1-20,2026-02-19,3
+373,Kindred River Works,Software,EMEA,21-100,2025-04-09,3
+374,Halcyon East Labs,Manufacturing,EMEA,1-20,2025-07-26,3
+375,Harbor Metro Retail,Media,EMEA,21-100,2026-02-03,4
+376,Oak River Clinic,Software,North America,101-500,2025-09-06,2
+377,Arden Grove Collective,Media,North America,1-20,2026-05-01,4
+378,Halcyon River Media,Manufacturing,EMEA,1-20,2024-08-17,4
+379,Kindred Bay Supply,Software,EMEA,1-20,2026-09-24,2
+380,Northline Grove Retail,Financial Services,North America,21-100,2025-05-04,4
+381,Redwood Peak Energy,Financial Services,North America,1-20,2023-09-02,5
+382,Woven Coast Transit,Manufacturing,North America,21-100,2026-05-03,1
+383,Lark Bay Foods,Software,North America,21-100,2026-04-05,4
+384,Fieldnote West Works,Media,EMEA,1-20,2024-11-30,3
+385,Fable Peak Supply,Financial Services,EMEA,501+,2023-07-06,4
+386,Harbor Coast Clinic,Manufacturing,EMEA,1-20,2026-06-21,5
+387,Redwood East Foods,Healthcare,APAC,1-20,2024-01-10,3
+388,Harbor Metro Goods,Education,EMEA,1-20,2026-09-08,2
+389,Copper Grove Foods,Education,North America,21-100,2026-03-20,4
+390,Pebble Peak Energy,Healthcare,EMEA,1-20,2026-01-31,2
+391,Oak Hill Clinic,Media,North America,101-500,2024-11-12,4
+392,Copper River Studio,Software,North America,21-100,2024-12-09,2
+393,Fieldnote Metro Energy,Retail,North America,101-500,2024-05-21,4
+394,Woven Hill Transit,Software,EMEA,501+,2026-08-24,2
+395,Lark Grove Works,Media,APAC,1-20,2024-06-07,2
+396,Copper Grove Studio,Financial Services,North America,1-20,2023-10-10,2
+397,Cedar Hill Media,Manufacturing,APAC,1-20,2024-09-04,2
+398,Oak Hill Studio,Manufacturing,North America,501+,2026-08-07,5
+399,Oak Peak Transit,Media,North America,21-100,2025-07-16,3
+400,Redwood Peak Clinic,Retail,North America,1-20,2025-02-21,5
+401,Silverline Grove Retail,Financial Services,EMEA,21-100,2024-05-15,5
+402,Silverline River Labs,Manufacturing,APAC,21-100,2025-03-08,4
+403,Northline River Works,Software,EMEA,1-20,2024-08-22,5
+404,Northline East Logistics,Retail,North America,101-500,2024-09-20,3
+405,Kinship Peak Supply,Education,APAC,21-100,2025-07-23,1
+406,Sable West Goods,Financial Services,EMEA,101-500,2023-11-13,1
+407,Silverline Peak Works,Education,North America,21-100,2025-06-07,2
+408,Cedar West Supply,Media,North America,101-500,2024-03-08,5
+409,Fieldnote West Energy,Software,North America,21-100,2025-06-22,4
+410,Copper West Clinic,Manufacturing,North America,101-500,2026-06-18,1
+411,Marlow Metro Media,Education,North America,101-500,2025-08-15,2
+412,Silverline Hill Logistics,Software,APAC,21-100,2026-03-02,5
+413,Vesper North Health,Software,EMEA,21-100,2025-05-21,2
+414,Kinship West Transit,Media,EMEA,101-500,2024-05-22,3
+415,Woven Metro Logistics,Financial Services,North America,101-500,2024-10-27,1
+416,Northline West Supply,Healthcare,North America,1-20,2026-03-20,3
+417,Kindred Peak Clinic,Retail,North America,1-20,2025-11-11,5
+418,Oak Grove Foods,Retail,North America,21-100,2024-05-04,4
+419,Kindred Hill Retail,Financial Services,North America,101-500,2025-05-01,1
+420,Fieldnote Hill Transit,Financial Services,North America,21-100,2026-02-13,5
+421,Silverline Grove Works,Education,EMEA,101-500,2026-01-17,3
+422,Kinship Peak Health,Manufacturing,North America,101-500,2026-07-11,1
+423,Cedar East Supply,Media,North America,101-500,2026-02-01,3
+424,Arden East Health,Media,APAC,1-20,2023-04-17,2
+425,Brightpath Grove Retail,Manufacturing,North America,21-100,2024-07-08,5
+426,Harbor East Works,Healthcare,North America,21-100,2025-03-25,3
+427,Pebble West Media,Financial Services,APAC,101-500,2025-07-27,5
+428,Arden Peak Foods,Manufacturing,APAC,21-100,2024-12-04,4
+429,Oak North Media,Healthcare,North America,501+,2024-07-17,5
+430,Redwood North Works,Healthcare,North America,21-100,2025-05-31,3
+431,Copper Peak Health,Manufacturing,APAC,101-500,2025-04-23,3
+432,Redwood West Labs,Education,EMEA,21-100,2026-08-15,4
+433,Redwood East Clinic,Financial Services,North America,21-100,2024-12-15,5
+434,Arden Hill Transit,Financial Services,EMEA,501+,2024-05-05,1
+435,Marlow East Collective,Education,North America,1-20,2024-07-14,5
+436,Northline Hill Health,Software,North America,21-100,2025-08-19,3
+437,Brightpath West Works,Media,EMEA,101-500,2025-09-19,1
+438,Harbor Bay Foods,Media,EMEA,501+,2025-05-11,4
+439,Kinship Grove Logistics,Retail,North America,1-20,2026-05-05,3
+440,Northline North Media,Software,North America,21-100,2023-03-20,4
+441,Halcyon North Systems,Healthcare,EMEA,501+,2026-01-02,5
+442,Sable Coast Energy,Financial Services,APAC,21-100,2023-06-24,4
+443,Silverline Grove Transit,Software,North America,101-500,2025-03-25,2
+444,Vesper West Foods,Software,EMEA,101-500,2023-11-13,2
+445,Woven Coast Goods,Manufacturing,North America,501+,2023-10-12,1
+446,Brightpath North Transit,Software,North America,101-500,2024-10-23,5
+447,Vesper Peak Health,Education,North America,21-100,2026-02-25,1
+448,Brightpath Metro Logistics,Education,EMEA,101-500,2023-05-27,3
+449,Oak Bay Systems,Software,North America,101-500,2026-05-12,2
+450,Pebble Hill Health,Manufacturing,North America,21-100,2024-03-14,4
+451,Sable Coast Clinic,Education,North America,21-100,2025-10-09,2
+452,Copper Peak Studio,Healthcare,North America,1-20,2024-04-14,4
+453,Halcyon Metro Retail,Retail,North America,101-500,2026-09-01,1
+454,Halcyon West Supply,Manufacturing,North America,101-500,2025-08-30,1
+455,Cedar Peak Studio,Financial Services,APAC,1-20,2024-07-08,4
+456,Fable East Foods,Financial Services,North America,1-20,2023-08-02,4
+457,Woven Bay Labs,Financial Services,EMEA,1-20,2025-03-21,5
+458,Lark North Systems,Retail,EMEA,501+,2023-09-05,2
+459,Arden River Goods,Retail,EMEA,101-500,2026-08-29,4
+460,Vesper East Foods,Software,North America,21-100,2024-05-09,5
+461,Fable Coast Retail,Manufacturing,EMEA,1-20,2023-11-27,4
+462,Harbor Coast Works,Media,EMEA,1-20,2025-06-21,3
+463,Redwood Coast Media,Software,North America,21-100,2026-05-02,5
+464,Fable Peak Foods,Retail,North America,21-100,2026-04-08,5
+465,Redwood West Works,Media,EMEA,501+,2024-12-26,4
+466,Cedar West Labs,Financial Services,EMEA,1-20,2026-08-31,5
+467,Kinship Metro Supply,Education,North America,21-100,2025-05-12,3
+468,Brightpath Coast Studio,Retail,EMEA,1-20,2026-01-29,3
+469,Oak East Supply,Media,APAC,101-500,2023-04-06,2
+470,Northline Grove Transit,Manufacturing,EMEA,501+,2026-01-10,4
+471,Oak East Foods,Education,APAC,501+,2026-04-24,5
+472,Marlow North Retail,Retail,North America,21-100,2026-01-18,5
+473,Harbor Coast Systems,Healthcare,North America,101-500,2023-06-04,2
+474,Sable Bay Supply,Financial Services,North America,101-500,2025-09-21,4
+475,Arden Grove Goods,Software,EMEA,21-100,2023-08-09,4
+476,Kinship Metro Works,Retail,APAC,21-100,2025-06-14,5
+477,Oak Bay Supply,Education,North America,1-20,2025-12-08,5
+478,Brightpath Metro Transit,Education,North America,21-100,2024-10-05,4
+479,Arden Bay Media,Manufacturing,North America,101-500,2025-10-03,1
+480,Fieldnote Peak Goods,Software,North America,21-100,2025-10-04,2
+481,Cedar East Foods,Healthcare,North America,501+,2026-05-07,3
+482,Fieldnote North Goods,Retail,North America,101-500,2026-08-05,3
+483,Cedar Coast Retail,Healthcare,EMEA,21-100,2024-11-21,2
+484,Woven Hill Clinic,Financial Services,EMEA,101-500,2026-03-04,4
+485,Harbor Grove Works,Software,North America,101-500,2025-12-15,2
+486,Copper West Studio,Education,North America,1-20,2024-08-10,5
+487,Redwood Hill Collective,Education,EMEA,501+,2026-01-24,2
+488,Silverline East Transit,Manufacturing,North America,21-100,2025-09-17,5
+489,Kindred East Energy,Software,EMEA,501+,2025-04-06,4
+490,Copper West Collective,Financial Services,North America,101-500,2025-12-31,4
+491,Arden River Energy,Software,North America,21-100,2023-06-01,4
+492,Kindred East Systems,Media,North America,1-20,2024-09-26,1
+493,Fable Grove Health,Manufacturing,APAC,101-500,2024-02-09,2
+494,Pebble River Media,Healthcare,EMEA,21-100,2023-10-31,4
+495,Lark Metro Foods,Software,EMEA,101-500,2025-08-30,1
+496,Kindred Grove Supply,Financial Services,North America,21-100,2023-01-18,5
+497,Pebble Coast Media,Education,North America,1-20,2025-07-29,3
+498,Sable Peak Foods,Education,North America,21-100,2024-04-07,4
+499,Halcyon River Logistics,Manufacturing,EMEA,21-100,2025-06-15,4
+500,Oak Coast Transit,Manufacturing,APAC,1-20,2024-01-18,5
+501,Pebble West Works,Healthcare,EMEA,21-100,2026-07-11,4
+502,Harbor Coast Logistics,Education,EMEA,1-20,2023-06-05,4
+503,Pebble Grove Logistics,Healthcare,North America,21-100,2024-03-29,5
+504,Kinship East Transit,Retail,EMEA,21-100,2025-03-14,2
+505,Copper Coast Logistics,Manufacturing,North America,1-20,2024-01-10,4
+506,Fable River Systems,Education,EMEA,101-500,2026-04-01,1
+507,Copper River Goods,Software,North America,1-20,2025-08-16,4
+508,Sable West Systems,Education,EMEA,1-20,2023-09-09,4
+509,Halcyon Grove Logistics,Healthcare,EMEA,21-100,2025-07-21,5
+510,Arden Metro Media,Healthcare,North America,101-500,2025-08-21,5
+511,Sable West Clinic,Media,APAC,501+,2024-03-30,3
+512,Cedar East Transit,Software,APAC,501+,2024-09-21,3
+513,Pebble Metro Works,Manufacturing,APAC,101-500,2024-02-11,1
+514,Brightpath Metro Foods,Retail,APAC,1-20,2025-03-29,3
+515,Fieldnote Hill Media,Software,North America,21-100,2023-05-12,1
+516,Oak River Labs,Financial Services,EMEA,1-20,2024-03-28,3
+517,Vesper Hill Systems,Media,EMEA,21-100,2025-09-02,4
+518,Pebble West Logistics,Retail,APAC,1-20,2025-06-25,4
+519,Cedar Bay Works,Healthcare,APAC,101-500,2025-12-30,4
+520,Vesper River Works,Education,North America,501+,2026-09-22,4
+521,Sable Hill Media,Manufacturing,EMEA,1-20,2023-09-12,1
+522,Pebble Peak Transit,Retail,APAC,101-500,2024-06-21,5
+523,Redwood Peak Transit,Software,North America,21-100,2024-12-06,1
+524,Fieldnote Coast Energy,Manufacturing,EMEA,1-20,2024-04-10,2
+525,Pebble North Supply,Software,North America,1-20,2025-11-01,3
+526,Brightpath Coast Energy,Financial Services,North America,101-500,2025-01-11,3
+527,Harbor River Foods,Financial Services,EMEA,1-20,2025-09-25,1
+528,Redwood Hill Media,Software,EMEA,101-500,2025-06-01,5
+529,Silverline Peak Foods,Retail,North America,21-100,2023-08-10,5
+530,Fieldnote West Studio,Manufacturing,North America,1-20,2025-02-05,4
+531,Lark River Supply,Education,EMEA,501+,2023-07-26,5
+532,Lark Peak Supply,Financial Services,North America,101-500,2026-01-21,5
+533,Pebble Bay Goods,Healthcare,EMEA,1-20,2025-09-15,5
+534,Woven Hill Energy,Healthcare,North America,21-100,2025-09-17,1
+535,Harbor Grove Transit,Retail,EMEA,101-500,2024-09-16,4
+536,Vesper West Labs,Financial Services,EMEA,21-100,2026-09-17,2
+537,Fable Peak Works,Manufacturing,North America,21-100,2025-05-09,5
+538,Pebble East Media,Education,North America,1-20,2026-09-13,1
+539,Woven Metro Supply,Retail,EMEA,101-500,2024-03-03,3
+540,Arden Metro Works,Healthcare,EMEA,101-500,2024-03-01,1
+541,Copper Coast Labs,Manufacturing,EMEA,1-20,2024-04-08,4
+542,Halcyon Coast Logistics,Healthcare,EMEA,501+,2025-04-20,5
+543,Pebble East Retail,Media,North America,21-100,2023-10-05,4
+544,Halcyon River Clinic,Manufacturing,North America,1-20,2026-03-04,1
+545,Harbor Peak Systems,Media,North America,1-20,2026-09-18,2
+546,Lark Hill Media,Healthcare,North America,21-100,2025-03-31,1
+547,Kinship North Clinic,Manufacturing,APAC,21-100,2026-07-16,1
+548,Northline River Energy,Healthcare,North America,101-500,2026-04-29,5
+549,Lark Grove Foods,Retail,North America,1-20,2026-02-22,4
+550,Marlow Grove Foods,Media,APAC,501+,2026-01-30,3
+551,Lark Bay Systems,Retail,North America,1-20,2025-06-12,2
+552,Kinship Hill Foods,Media,EMEA,21-100,2023-12-12,3
+553,Kinship Peak Systems,Manufacturing,EMEA,501+,2026-08-25,4
+554,Northline Coast Retail,Financial Services,North America,1-20,2026-05-03,3
+555,Lark Peak Health,Healthcare,EMEA,101-500,2026-05-23,1
+556,Kinship Hill Logistics,Financial Services,EMEA,1-20,2026-02-04,2
+557,Marlow Coast Retail,Healthcare,EMEA,101-500,2026-05-21,2
+558,Harbor Peak Media,Software,EMEA,101-500,2026-01-19,1
+559,Pebble Grove Energy,Retail,EMEA,101-500,2025-08-12,5
+560,Brightpath Coast Collective,Manufacturing,North America,101-500,2026-09-10,1
+561,Sable Bay Studio,Manufacturing,North America,1-20,2025-12-27,1
+562,Kindred Coast Collective,Education,North America,501+,2024-08-07,3
+563,Fieldnote Coast Media,Media,North America,21-100,2025-10-05,3
+564,Kinship North Media,Software,EMEA,1-20,2025-07-03,5
+565,Cedar Hill Clinic,Manufacturing,EMEA,101-500,2026-03-01,5
+566,Kinship Hill Collective,Financial Services,EMEA,21-100,2026-01-22,5
+567,Redwood West Health,Manufacturing,North America,501+,2025-09-25,2
+568,Copper Bay Systems,Healthcare,EMEA,1-20,2024-09-01,2
+569,Halcyon Metro Clinic,Retail,North America,21-100,2023-07-08,1
+570,Kinship Hill Media,Software,North America,21-100,2026-09-15,4
+571,Brightpath River Clinic,Healthcare,EMEA,101-500,2025-04-29,4
+572,Fable Bay Energy,Software,EMEA,501+,2023-01-09,2
+573,Vesper West Energy,Retail,North America,21-100,2024-09-23,5
+574,Redwood River Media,Media,North America,21-100,2025-05-06,3
+575,Arden Coast Transit,Retail,North America,21-100,2024-12-24,2
+576,Vesper Hill Collective,Financial Services,EMEA,21-100,2023-11-27,1
+577,Northline Bay Media,Software,EMEA,101-500,2026-09-13,4
+578,Redwood Hill Clinic,Manufacturing,North America,101-500,2025-03-12,4
+579,Harbor East Studio,Software,North America,101-500,2026-06-15,5
+580,Copper Peak Systems,Manufacturing,North America,101-500,2024-10-08,5
+581,Northline Grove Logistics,Healthcare,EMEA,21-100,2024-12-13,1
+582,Northline Metro Systems,Software,EMEA,501+,2024-08-28,1
+583,Copper Peak Clinic,Software,EMEA,501+,2024-06-17,2
+584,Kindred North Clinic,Manufacturing,North America,1-20,2023-03-12,1
+585,Arden Hill Retail,Healthcare,North America,1-20,2025-11-06,2
+586,Lark Bay Collective,Education,North America,21-100,2023-03-09,1
+587,Sable Bay Retail,Financial Services,EMEA,1-20,2023-11-02,1
+588,Sable River Logistics,Retail,North America,21-100,2026-05-02,5
+589,Marlow Hill Studio,Media,EMEA,21-100,2025-07-18,4
+590,Pebble Peak Foods,Media,APAC,21-100,2026-06-01,2
+591,Oak Peak Labs,Retail,North America,101-500,2025-02-13,1
+592,Fieldnote Grove Media,Healthcare,North America,1-20,2026-09-22,2
+593,Fable Grove Transit,Retail,North America,21-100,2024-05-25,3
+594,Copper Hill Retail,Media,EMEA,1-20,2024-08-05,3
+595,Harbor Metro Foods,Education,North America,1-20,2025-05-12,3
+596,Oak Grove Media,Media,EMEA,21-100,2024-06-18,2
+597,Oak East Transit,Manufacturing,North America,501+,2024-02-25,2
+598,Woven Metro Systems,Software,North America,21-100,2023-11-07,5
+599,Harbor Bay Energy,Retail,North America,1-20,2025-01-20,4
+600,Redwood Bay Works,Education,APAC,1-20,2025-03-03,1
+601,Vesper Grove Energy,Healthcare,EMEA,1-20,2024-03-06,5
+602,Woven Metro Collective,Education,North America,21-100,2024-09-03,2
+603,Fieldnote Hill Energy,Retail,North America,101-500,2026-08-22,2
+604,Kinship Bay Collective,Financial Services,EMEA,21-100,2025-04-26,4
+605,Oak Grove Systems,Software,EMEA,501+,2024-07-06,3
+606,Cedar West Transit,Retail,North America,21-100,2025-02-26,3
+607,Kindred East Clinic,Healthcare,North America,101-500,2025-04-13,1
+608,Oak Bay Retail,Media,APAC,1-20,2026-08-05,4
+609,Halcyon Coast Collective,Financial Services,EMEA,1-20,2025-01-23,2
+610,Fable Grove Supply,Manufacturing,North America,501+,2024-04-04,3
+611,Harbor River Transit,Media,North America,21-100,2025-05-17,1
+612,Copper Metro Labs,Software,North America,101-500,2026-01-17,3
+613,Kinship River Works,Manufacturing,EMEA,21-100,2026-08-28,4
+614,Northline Bay Goods,Education,North America,1-20,2025-04-27,3
+615,Fable North Labs,Retail,North America,1-20,2024-12-22,2
+616,Halcyon West Foods,Retail,North America,1-20,2024-07-29,1
+617,Kinship Grove Systems,Manufacturing,North America,21-100,2026-04-11,3
+618,Fable Peak Labs,Retail,North America,101-500,2024-07-18,2
+619,Oak East Studio,Media,North America,101-500,2024-12-04,1
+620,Pebble West Collective,Manufacturing,EMEA,501+,2023-12-24,3
+621,Northline Hill Foods,Manufacturing,EMEA,21-100,2026-09-14,2
+622,Halcyon Hill Supply,Education,EMEA,1-20,2024-03-05,3
+623,Marlow Peak Logistics,Software,North America,101-500,2026-09-12,4
+624,Fieldnote West Goods,Manufacturing,North America,101-500,2026-03-28,5
+625,Halcyon Grove Goods,Financial Services,EMEA,1-20,2025-07-30,4
+626,Lark Hill Works,Media,North America,101-500,2025-05-08,3
+627,Silverline Hill Clinic,Education,EMEA,101-500,2024-03-03,4
+628,Northline Coast Works,Retail,North America,1-20,2026-03-12,4
+629,Copper West Systems,Financial Services,APAC,501+,2023-08-30,3
+630,Copper Grove Transit,Retail,North America,501+,2026-03-11,5
+631,Woven East Studio,Manufacturing,North America,1-20,2026-05-06,1
+632,Lark River Transit,Education,North America,101-500,2024-02-12,4
+633,Arden West Health,Software,North America,101-500,2026-03-18,5
+634,Arden Coast Systems,Education,North America,1-20,2024-10-03,3
+635,Cedar North Works,Manufacturing,North America,21-100,2026-06-06,2
+636,Halcyon Metro Supply,Media,APAC,21-100,2025-07-17,1
+637,Lark Bay Transit,Education,North America,1-20,2024-11-28,5
+638,Marlow West Labs,Retail,North America,501+,2025-07-13,2
+639,Halcyon Peak Supply,Media,North America,101-500,2026-03-06,1
+640,Marlow Metro Logistics,Financial Services,EMEA,1-20,2025-01-31,3
+641,Lark Hill Foods,Retail,EMEA,1-20,2026-01-20,4
+642,Kinship River Logistics,Software,APAC,501+,2025-11-08,4
+643,Redwood River Works,Software,APAC,101-500,2023-07-11,1
+644,Oak Hill Health,Manufacturing,EMEA,501+,2023-05-18,4
+645,Kindred West Collective,Retail,APAC,101-500,2025-04-15,5
+646,Marlow Peak Foods,Software,North America,101-500,2025-11-16,5
+647,Fieldnote Bay Energy,Media,North America,101-500,2025-04-16,1
+648,Kindred Bay Energy,Manufacturing,North America,101-500,2024-01-23,1
+649,Cedar River Works,Financial Services,EMEA,1-20,2024-11-04,4
+650,Vesper Grove Health,Education,EMEA,1-20,2023-07-21,2
+651,Oak North Energy,Manufacturing,North America,501+,2024-07-14,5
+652,Northline Peak Works,Software,North America,101-500,2025-08-02,2
+653,Sable Metro Goods,Software,EMEA,101-500,2026-08-26,4
+654,Fable East Media,Retail,North America,1-20,2023-07-02,2
+655,Kindred West Health,Education,APAC,101-500,2025-03-08,4
+656,Arden Bay Retail,Financial Services,North America,21-100,2023-07-28,3
+657,Kinship Coast Supply,Software,North America,501+,2025-07-01,2
+658,Kinship Metro Foods,Manufacturing,EMEA,1-20,2025-07-19,1
+659,Kindred Coast Studio,Software,North America,1-20,2026-04-04,5
+660,Marlow Coast Transit,Media,EMEA,1-20,2025-07-31,5
+661,Cedar East Retail,Manufacturing,North America,101-500,2025-04-09,1
+662,Redwood Grove Works,Software,EMEA,1-20,2025-12-02,4
+663,Lark Hill Goods,Financial Services,North America,101-500,2025-09-15,2
+664,Redwood East Energy,Education,North America,501+,2025-04-06,3
+665,Lark Peak Works,Healthcare,North America,21-100,2023-06-22,4
+666,Kinship Coast Retail,Manufacturing,APAC,1-20,2024-01-07,4
+667,Redwood North Transit,Financial Services,North America,1-20,2025-09-19,2
+668,Harbor Bay Systems,Manufacturing,EMEA,1-20,2025-08-26,4
+669,Lark East Supply,Education,EMEA,1-20,2026-01-22,1
+670,Woven East Media,Media,EMEA,21-100,2025-06-24,1
+671,Halcyon Coast Energy,Media,North America,21-100,2026-04-23,3
+672,Fable Metro Labs,Healthcare,North America,21-100,2024-04-10,3
+673,Fieldnote Grove Health,Software,North America,1-20,2025-01-31,3
+674,Sable Grove Labs,Healthcare,North America,21-100,2023-12-07,2
+675,Brightpath River Supply,Media,EMEA,1-20,2024-02-09,2
+676,Vesper East Health,Financial Services,EMEA,1-20,2024-07-31,4
+677,Fable North Systems,Education,North America,21-100,2023-10-09,2
+678,Fieldnote River Health,Education,North America,1-20,2025-07-21,2
+679,Arden Coast Studio,Retail,North America,1-20,2026-08-23,1
+680,Marlow North Goods,Software,North America,1-20,2025-01-18,3
+681,Silverline West Health,Software,EMEA,21-100,2024-10-30,3
+682,Cedar Hill Systems,Media,North America,101-500,2025-03-08,5
+683,Fable Peak Studio,Media,North America,101-500,2024-01-27,5
+684,Kindred Grove Health,Manufacturing,North America,1-20,2024-09-14,3
+685,Oak North Foods,Retail,APAC,21-100,2025-06-09,5
+686,Vesper Hill Studio,Financial Services,North America,21-100,2025-07-11,4
+687,Silverline River Studio,Healthcare,North America,1-20,2025-04-16,5
+688,Cedar Coast Health,Software,North America,1-20,2026-06-22,3
+689,Silverline Peak Labs,Manufacturing,EMEA,501+,2023-10-17,5
+690,Oak West Works,Healthcare,APAC,1-20,2024-08-28,5
+691,Vesper East Supply,Media,North America,21-100,2024-01-12,2
+692,Silverline North Studio,Software,North America,21-100,2023-12-11,2
+693,Vesper West Works,Media,EMEA,101-500,2023-04-11,2
+694,Halcyon West Studio,Software,North America,21-100,2026-09-09,1
+695,Pebble Hill Transit,Media,EMEA,101-500,2024-08-31,1
+696,Arden East Labs,Financial Services,North America,21-100,2025-09-29,5
+697,Pebble East Health,Software,North America,1-20,2024-12-04,2
+698,Arden East Transit,Retail,EMEA,1-20,2024-03-04,1
+699,Harbor North Energy,Manufacturing,North America,501+,2025-02-25,4
+700,Marlow East Goods,Software,North America,21-100,2026-04-08,4
+701,Arden Coast Supply,Retail,North America,21-100,2026-06-28,5
+702,Harbor River Collective,Education,North America,21-100,2026-06-29,5
+703,Fieldnote Bay Supply,Healthcare,APAC,21-100,2024-02-06,2
+704,Northline Grove Collective,Media,North America,1-20,2025-06-07,2
+705,Harbor North Retail,Manufacturing,EMEA,1-20,2024-12-30,2
+706,Northline Bay Health,Education,EMEA,101-500,2025-09-25,4
+707,Silverline River Systems,Software,EMEA,21-100,2023-02-19,2
+708,Kinship Hill Energy,Retail,APAC,101-500,2024-01-05,1
+709,Cedar Bay Health,Education,North America,21-100,2024-01-07,4
+710,Copper Hill Foods,Education,North America,1-20,2025-05-11,1
+711,Marlow Grove Works,Software,North America,501+,2026-01-24,3
+712,Copper Bay Goods,Software,North America,101-500,2023-05-27,2
+713,Lark Coast Works,Manufacturing,North America,21-100,2026-06-19,2
+714,Halcyon River Retail,Retail,EMEA,21-100,2023-05-08,4
+715,Harbor Metro Health,Software,North America,21-100,2024-02-16,1
+716,Redwood Metro Media,Software,North America,21-100,2024-06-11,2
+717,Fieldnote Metro Collective,Media,APAC,21-100,2024-01-25,3
+718,Halcyon Coast Labs,Retail,EMEA,21-100,2025-03-21,1
+719,Sable Metro Supply,Education,North America,1-20,2024-03-11,1
+720,Pebble West Studio,Software,EMEA,501+,2025-01-20,4

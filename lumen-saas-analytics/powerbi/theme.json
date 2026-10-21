@@ -1,0 +1,15 @@
+{
+  "name": "Lumen Workspace",
+  "dataColors": ["#1B3A4B", "#1F7A8C", "#C4A35A", "#C44536", "#5C6B73", "#2E7D4F", "#3D5A80", "#E0A106"],
+  "foreground": "#1B3A4B",
+  "background": "#FFFFFF",
+  "backgroundLight": "#F4F7F8",
+  "backgroundNeutral": "#E3E8EA",
+  "tableAccent": "#1F7A8C",
+  "good": "#2E7D4F",
+  "bad": "#C44536",
+  "neutral": "#C4A35A",
+  "maximum": "#1B3A4B",
+  "center": "#C4A35A",
+  "minimum": "#C44536"
+}

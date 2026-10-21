@@ -1,0 +1,8 @@
+rfm_segment,customers,net_revenue,avg_recency_days,avg_orders,avg_monetary
+Champions,827,7253150.0,21.5,13.44,8770.44
+Loyal,461,2908610.3,65.3,11.07,6309.35
+At risk,552,2091767.65,203.2,5.73,3789.43
+Needs attention,526,1056125.05,58.7,3.92,2007.84
+Big spenders,125,673841.4,48.6,5.54,5390.73
+Hibernating,894,658080.65,322.8,1.54,736.11
+Promising,230,292772.65,26.9,2.13,1272.92

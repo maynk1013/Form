@@ -1,0 +1,5 @@
+plan_id,plan_name,monthly_price_per_seat,tier_rank
+1,Starter,39.0,1
+2,Growth,89.0,2
+3,Scale,179.0,3
+4,Enterprise,399.0,4

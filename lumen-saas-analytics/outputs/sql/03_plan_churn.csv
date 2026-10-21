@@ -1,0 +1,5 @@
+plan_name,tier_rank,churned_logos,beginning_account_months,monthly_logo_churn
+Starter,1,101,1134,0.0891
+Growth,2,36,1155,0.0312
+Scale,3,23,1397,0.0165
+Enterprise,4,7,1376,0.0051

@@ -1,0 +1,4 @@
+segment,customers,orders,net_revenue,gross_margin,aov,line_return_rate
+Consumer,1972,12982,7457814.5,0.4489,574.47,0.0667
+Corporate,1130,7626,5413119.9,0.4696,709.82,0.027
+Home Office,513,3392,2063413.3,0.4471,608.32,0.0573
